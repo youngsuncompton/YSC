@@ -6,7 +6,7 @@ layout: home
 permalink:
 ---
 
-Young Sun (YSC) is a logical intuitive introvert ([INTJ](https://en.wikipedia.org/wiki/INTJ#Characteristics_of_INTJs)) and graphic designer.
+Young Sun ([YSC](#)) is a logical intuitive introvert ([INTJ](https://en.wikipedia.org/wiki/INTJ#Characteristics_of_INTJs)) and graphic designer.
 
 Currently thinking about experience and interaction on the digital media team at The Museum of Modern Art (MoMA) as well as teaching communication design at the School of Visual Arts (SVA).
 

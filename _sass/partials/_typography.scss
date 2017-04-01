@@ -99,12 +99,13 @@ h1, h2, h3, h4, h5, h6 {
 // Links
 
 a {
-  color: $background-color;
-  text-decoration:line-through;
+  color: $text-color;
+  text-decoration:none;
+  text-shadow: none;
 
   &:visited {
     // color: darken($text-color, 15%);
-    color: $background-color;
+    color: $text-color;
   }
 
   &:hover {

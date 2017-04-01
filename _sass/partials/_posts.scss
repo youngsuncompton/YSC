@@ -78,6 +78,11 @@
 
 }
 
+.post-content a {
+  color: $text-color;
+  text-decoration:underline;}
+
+
 .post-content p + p {
   text-indent: 1em;
 }
