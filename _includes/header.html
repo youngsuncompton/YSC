@@ -1,0 +1,29 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <div class="nav">
+        <div class="dropdown">
+          <select id="nav" >
+            <option value="/">YSC</option>
+            <option value="#">---</option>
+            {% for post in site.posts %}
+            <option class="post-link" value="{{ post.url | relative_url }}" {% if page.url == {{post.url}} %}selected{% endif %}>{{ post.title | escape }}</option>
+            {% endfor %}
+            <option value="#">---</option>
+            <option value="/colophon" {% if page.url == '/colophon' %}selected{% endif %}>Colophon</option>
+          </select>
+
+          <script type="text/javascript">
+   document.getElementById("nav").onchange = function() {
+      var selectedOption = this.value;
+      window.location.href = "http://localhost:4002" + selectedOption;
+   }
+</script>
+        </div
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- onchange="location = this.options[this.selectedIndex].value;" -->

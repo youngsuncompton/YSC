@@ -1,0 +1,111 @@
+.home p {
+  font-size: $base-font-size * 3;
+  color: $background-color;
+  text-shadow: -1px 0 $text-color, 0 1px $text-color, 1px 0 $text-color, 0 -1px $text-color;
+  font-weight: lighter;
+  letter-spacing: -1px;
+  // margin-bottom: $spacing-unit * 2;
+  text-align: left;
+}
+
+.home p + p {
+  text-indent: 1em;
+}
+
+
+// Page Content
+
+.page-content {
+  padding: ($spacing-unit * 2) 0;
+}
+
+.page-heading {
+  font-size: 20px;
+}
+
+.post-list {
+  letter-spacing: -1px;
+  list-style: none;
+  margin-left: 0;
+  > li {
+    margin-bottom: $spacing-unit;
+
+  }
+}
+
+.post-link {
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+select {
+  background: black;
+  height: $spacing-unit * 2.25;
+  color: $text-color;
+  font-size: $base-font-size *1.25;
+  border: 3px solid $text-color;
+  padding-left: $spacing-unit * .5;
+  padding-right: $spacing-unit * 2;
+  margin: $spacing-unit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: black url(../assets/dropdown.png) no-repeat right;
+}
+
+
+.nav{
+  width: 100%;
+  left:0;
+  top: 45%;
+  position: fixed;
+}
+
+.dropdown {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown select{
+  width: 40%;
+  min-width: 300px;
+  -ms-transform: rotate(15deg); /* IE 9 */
+  -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+  transform: rotate(15deg);
+}
+
+// Mobile
+
+@include media-query($on-palm) {
+  .home p {
+    font-size: $base-font-size * 1.25;
+    letter-spacing: normal;
+  }
+  .post-list a{
+    font-size: $base-font-size * 1.25;
+    letter-spacing: normal;
+  }
+
+  ul, ol {
+    font-size: $base-font-size * 1.25;
+  }
+
+  select {
+    height: $spacing-unit * 1.25;
+    font-size: $base-font-size * .75;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit * 2;
+    margin: $spacing-unit;
+    width: auto;
+    border: 2px solid $text-color;
+    background: black url(../assets/dropdown-alt.png) no-repeat right;
+  }
+  .dropdown {
+    -ms-transform: rotate(75deg); /* IE 9 */
+    -webkit-transform: rotate(75deg); /* Chrome, Safari, Opera */
+    transform: rotate(75deg);
+  }
+
+}
