@@ -4,13 +4,15 @@
     <div class="nav">
         <div class="dropdown">
           <select id="nav" >
-            <option value="/">YSC</option>
-            <option value="#">---</option>
-            {% for post in site.posts %}
-            <option class="post-link" value="{{ post.url | relative_url }}" {% if page.url == {{post.url}} %}selected{% endif %}>{{ post.title | escape }}</option>
-            {% endfor %}
-            <option value="#">---</option>
-            <option value="/colophon" {% if page.url == '/colophon' %}selected{% endif %}>Colophon</option>
+            <!-- <optgroup> -->
+              <option value="/">YSC</option>
+              <option value="#">---</option>
+              {% for post in site.posts %}
+              <option class="post-link" value="{{ post.url | relative_url }}" {% if page.url == {{post.url}} %}selected{% endif %}>{{ post.title | escape }}</option>
+              {% endfor %}
+              <option value="#">---</option>
+              <option value="/colophon" {% if page.url == '/colophon' %}selected{% endif %}>Colophon</option>
+            <!-- </optgroup> -->
           </select>
 
           <script type="text/javascript">

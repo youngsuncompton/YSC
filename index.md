@@ -14,4 +14,4 @@ Now accepting commissions for identities, ephemera, books, and websites. [Get in
 
 # Elsewhere and otherwise
 
-1/3 of [Other Voices](http://www.othervoic.es)—[@yscompton](https://twitter.com/yscompton)—[rrrreading](http://www.rrrreading.com), [collecting](https://www.are.na/ys-compton),
+1/3 of [Other Voices](http://www.othervoic.es) and [Rrrreading](http://www.rrrreading.com)

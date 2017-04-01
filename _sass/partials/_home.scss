@@ -54,6 +54,10 @@ select {
   background: black url(../assets/dropdown.png) no-repeat right;
 }
 
+option:checked{
+  height: 100px;
+   width: 100px;
+}
 
 .nav{
   width: 100%;
@@ -107,5 +111,7 @@ select {
     -webkit-transform: rotate(75deg); /* Chrome, Safari, Opera */
     transform: rotate(75deg);
   }
+
+
 
 }
