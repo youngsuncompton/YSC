@@ -11,7 +11,7 @@
               <option class="post-link" value="{{ post.url | relative_url }}" {% if page.url == {{post.url}} %}selected{% endif %}>{{ post.title | escape }}</option>
               {% endfor %}
               <option value="#">---</option>
-              <option value="/colophon" {% if page.url == '/colophon' %}selected{% endif %}>Colophon</option>
+              <option value="/info" {% if page.url == '/info' %}selected{% endif %}>INFO</option>
             <!-- </optgroup> -->
           </select>
 
