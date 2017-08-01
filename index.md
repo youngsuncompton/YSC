@@ -8,7 +8,7 @@ permalink:
 
 Young Sun ([YSC](/info)) is a logical intuitive introvert ([INTJ](https://en.wikipedia.org/wiki/INTJ#Characteristics_of_INTJs)) and graphic designer.
 
-Currently thinking about experience and interaction on the digital media team at The Museum of Modern Art (MoMA) as well as teaching communication design at the School of Visual Arts (SVA).
+Currently thinking about experience and interaction on the digital media team at The Museum of Modern Art (MoMA) as well as taking a break from teaching.
 
 Now accepting commissions for identities, ephemera, books, and websites. [Get&nbsp;in&nbsp;touch&nbsp;☁︎ ](mailto:youngsuncompton@gmail.com)
 
