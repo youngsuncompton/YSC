@@ -6,7 +6,7 @@ img: STUDIO.gif
 ---
 
 <!-- The typeface,... designed by ... and distributed by ..., is used throughout.  -->
-Young Sun Compton, living/working in NYC, is an interaction designer at the Museum of Modern Art and ~~professor at the School of Visual Arts~~ taking a break from teaching this year (2017). He’s held positions at industry-leading design agencies Pentagram and VSA Partners, received recognition from numerous design publications, and awards from the Type Directors Club, Industrial Designers Society of America, and U.S. Cannes.
+Young Sun Compton, living/working in NYC, is an interaction designer at the Museum of Modern Art and ~~professor at the School of Visual Arts~~ taking a break from teaching this year. He’s held positions at industry-leading design agencies Pentagram and VSA Partners, received recognition from numerous design publications, and awards from the Type Directors Club, Industrial Designers Society of America, and U.S. Cannes.
 
 
 <div class="post-content"><img src="/img/TYPOGRAPHIE.jpg"></div>
