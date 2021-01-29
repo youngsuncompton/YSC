@@ -35,7 +35,7 @@ $on-laptop:        768px  !default;
   }
 }
 
-// Import partials.
+// Import partials, probably shouldn't reorder these
 @import
   "partials/base",
   "partials/layout",
