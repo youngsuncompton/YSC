@@ -2,18 +2,23 @@
 layout: page
 title: "Info"
 permalink: /info
-img: STUDIO.gif
+img:
 ---
 
-<!-- The typeface,... designed by ... and distributed by ..., is used throughout.  -->
-Young Sun Compton, living/working in NYC, is an interaction designer at the Museum of Modern Art and
-adjunct professor at the School of Visual Arts. He’s held positions at industry-leading design agencies Pentagram and VSA Partners, received recognition from numerous design publications, and awards from the Type Directors Club, Industrial Designers Society of America, and U.S. Cannes.
+{% include image.html url="/img/youreader.png" target="_blank" description="" alt="Scan of a handwritten note, in thick graphite. The inconsistency of the letterforms reveals my hurried, shaky hand. The note reads you reader reading" %}
 
+# Reading is distracting.
 
-<div class="post-content"><img src="/img/TYPOGRAPHIE.jpg"></div>
-YSC was awarded an MFA in Graphic Design from the Maryland Institute College of Art ([MICA](http://www.micadesign.org/more)) in 2013 after earning his BFA from Montclair State University in 2008.
+I’m a graphic designer (now) located in Los Angeles with 11 years experience making things like websites, identities, ephemera, some exhibitions and books while collaborating with other designers and studios and developers, artists, small and not-so-small businesses, cultural institutions, software companies, I've produced work for Bloomberg, Haworth Furniture, IBM, Mason Gross School of the Arts, MoMA, MoMA Publications, Monotype,  Montclair State University Art Galleries, The Ohio State University Wexner Medical Center, PS1, Upholstery Bar, and Wildenstein Plattner Institute—a mixed bag.
 
-This website was designed and developed by YSC on top of [Jekyll](http://jekyllrb.com) using [Atom](https://atom.io) text editor, and  [iTerm](https://iterm2.com). Running on [Github](https://github.com/youngsuncompton/YSC). Dog pictured above is a 6 y/o Mini Australian Shepherd called Montana.
+Before leaving New York I was in-house at The Museum of Modern Art, responsible for museum-wide interface, product, and (digital) experience design juggling institutional, curatorial and audience (visitor, user, reader) needs, interests, and expectations. I loved it. Prior to MoMA I held positions at ~~old guard~~ industry-leading design firms Pentagram and VSA Partners.
 
-All images created or captured by YSC unless noted otherwise.
-<!-- <div class="post-content"><img src="/img/YS.gif"></div> -->
+{% include image.html url="/img/IMG_2015.JPG" target="_blank" alt="A photo of a blurry, strolling YSC looking at a series of parallel constructions of painted green steel in the foreground." description="Looking at \"Untitled, 1966\" by Donald Judd. Photographed by [Damien Saatdjian](https://damiensaatdjian.com/Judd), 2020" %}
+
+Back to third person:
+
+YSC was awarded an MFA in Graphic Design from the [Maryland Institute College of Art](http://www.micadesign.org/more){:target="_blank"} in 2013 after earning his BFA from [Montclair State University College of the Arts](https://www.montclair.edu/arts/){:target="_blank"} in 2008. He has received recognition from numerous design publications, and awards from the Type Directors Club, Industrial Designers Society of America, U.S. Cannes, and The Webby Awards.
+
+The typeface used throughout is [Gothic 720](https://www.linotype.com/1084368/gothic-720-family.html){:target="_blank"}. A version of [Venus Grotesk ](https://en.wikipedia.org/wiki/Venus_(typeface)){:target="_blank"}redrawn for early digital use and initially released by Bitstream. Bitstream created a library of "classic" fonts (usually under different names for trademark reasons) in digital form <sup>[src](https://en.wikipedia.org/wiki/Bitstream_Inc.){:target="_blank"}</sup>. The capitals are a bit heavier so initials sort of float to the surface.
+
+This website was designed and developed by YSC on top of [Jekyll](http://jekyllrb.com){:target="_blank"} using [Atom](https://atom.io){:target="_blank"} text editor, and  [iTerm](https://iterm2.com){:target="_blank"}. Running on [Github](https://github.com/youngsuncompton/YSC){:target="_blank"}.
