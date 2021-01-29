@@ -14,10 +14,15 @@ img {
 
 figure > img {
   display: block;
+  width: 100%;
 }
 
 figcaption {
   font-size: $small-font-size;
+}
+
+h1::selection, p::selection, span::selection, a::selection{
+  background: $brand-color;
 }
 
 
