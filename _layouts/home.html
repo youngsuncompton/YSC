@@ -4,5 +4,10 @@ title: home
 ---
 
 <div class="home">
+  <div class="hero-image">
+    {% if page.img %}
+    <img class="featured-img" src={{ "/img/" | prepend: site.baseurl | append : page.img }} alt="{{page.alt}}" >
+    {% endif %}
+  </div>
+
   {{ content }}
-</div>
