@@ -1,17 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-permalink:
+permalink: /
+img: Ghostbook.gif
+alt: An image of shadows cast by an open book, but no book just the suggestion of bound pages.
 ---
 
-Young Sun ([YSC](/info)) is a logical intuitive introvert ([INTJ](https://en.wikipedia.org/wiki/INTJ#Characteristics_of_INTJs)) and graphic designer.
+A small studio operated by Young Sun Compton OR the personal and professional practice of an independent graphic designer working on identities, ephemera, books, and websites.
 
-Currently thinking about experience and interaction on the digital media team at The Museum of Modern Art (MoMA) and teaching at the School of Visual Arts ([SVA](http://www.sva.edu/faculty/young-sun-compton)). 
 
-Now accepting commissions for identities, ephemera, books, and websites. [Get&nbsp;in&nbsp;touch&nbsp;☁︎ ](mailto:youngsuncompton@gmail.com)
-
-# Elsewhere and otherwise
-
-1/3 of [Other Voices](http://www.othervoic.es) and [Rrrreading](http://www.rrrreading.com)
+YSC is open for collaborative, thoughtful, unexpected projects; to help think through things, grow ideas, suggest edits, organize information, and offer opinions.
