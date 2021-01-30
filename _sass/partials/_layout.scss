@@ -1,94 +1,52 @@
-// Site header
+// Page stuff
 
-.site-header {
-  min-height: $spacing-unit * 2;
-  // Positioning context for the mobile navigation icon
-  position: relative;
+.section {
+  padding-top: $spacing-unit * 2;
 }
-
-.site-nav {
-  display: none;
-  float: right;
-
-  .menu-icon {
-    display: none;
-  }
-
-  .page-link {
-    color: $text-color;
-    font-kerning: auto;
-    letter-spacing: -1px;
-    line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
-  }
-
-  @include media-query($on-palm) {
-    position: absolute;
-    right: $spacing-unit / 2;
-    text-align: right;
-    top: $spacing-unit / 2;
-
-    .menu-icon {
-      display: block;
-      float: right;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-      width: 36px;
-
-      > svg path {
-        fill: $grey-color-dark;
-      }
-    }
-
-    .trigger {
-      clear: both;
-      display: none;
-    }
-
-    &:hover .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
-  }
-}
-
 
 
 // Site Footer
 
 .site-footer {
-  padding: $spacing-unit 0;
-  height: auto;
   bottom: 0;
+  font-family: $accent-font;
+  font-style:italic;
+  font-weight:400;
+  height: auto;
+  padding: $spacing-unit 0;
   width: 100%;
 
 }
 
-.footer-heading {
-  font-size: 18px;
-  margin-bottom: $spacing-unit / 2;
+.site-footer a{
+  font-family: $base-font-family;
+  font-style: normal;
 }
 
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
+
+.footer-links {
+padding-left: 33.3%;
+}
+
+.link-list{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  @include media-query($on-palm) {
+    flex-direction: column;
+    font-size: $base-font-size *.75;
+
+    li{
+      margin: ($spacing-unit * .375) 0;
+
+    }
+
+  }
+}
+
+.link-list li {
+  margin-right: $spacing-unit / 2;
 }
 
 .footer-col-wrapper {
