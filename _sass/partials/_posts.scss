@@ -3,7 +3,7 @@
 .page-content {
   padding-bottom: 5vh;
   padding-top: 15%;
-  max-width: 1024px;
+
 }
 
 .post-meta {
@@ -46,6 +46,7 @@
 .post-content {
     padding-bottom: $spacing-unit;
     padding-left: 33.3%;
+    max-width: 1024px;
 
     @include media-query($on-palm) {
       padding-left: 0;
