@@ -13,7 +13,7 @@ I’m a graphic designer (now) located in Los Angeles with 11 years experience m
 
 Before leaving New York I was in-house at The Museum of Modern Art, responsible for museum-wide interface, product, and (digital) experience design juggling institutional, curatorial and audience (visitor, user, reader) needs, interests, and expectations. I loved it. Prior to MoMA I held positions at ~~old guard~~ industry-leading design firms Pentagram and VSA Partners.
 
-{% include image.html url="/img/IMG_2015@2x.gif" target="_blank" alt="A photo of a blurry, strolling YSC looking at a series of parallel constructions of painted green steel in the foreground." description="Looking at \"Untitled, 1966\" by Donald Judd. Photographed by [Damien Saatdjian](https://damiensaatdjian.com/Judd), 2020" %}
+{% include image.html url="/img/IMG_2015@2x.gif" target="_blank" alt="A photo of a blurry, strolling YSC looking at a series of parallel constructions of painted green steel in the foreground." description="Looking at Judd. Photographed by [Damien Saatdjian](https://damiensaatdjian.com/Judd), 2020" %}
 
 Back to third person:
 
