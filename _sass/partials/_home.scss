@@ -16,7 +16,7 @@
 .home {
    p{
 
-    font-size: $base-font-size * 2;
+    font-size: 3.75vw;
     line-height: normal;
 
     @include media-query($on-laptop) {
