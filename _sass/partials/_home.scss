@@ -20,7 +20,7 @@
     line-height: normal;
 
     @include media-query($on-laptop) {
-      font-size: $base-font-size;
+      font-size: $base-font-size * .75;
       line-height: inherit;
     }
   }
